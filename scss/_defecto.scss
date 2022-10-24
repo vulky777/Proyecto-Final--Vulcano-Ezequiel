@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+
+    nav {
+        height: auto;
+    }
+
+    header { 
+        width: auto;
+        height: auto;
+        background-image: url('../assets/image/campus.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    main {
+        height: auto;
+        h2 {
+            color: #1e4635c0 ;
+        }
+    }
+    
+    footer {
+        height: 5vh;
+        margin-top: 1rem; 
+        .centrado {
+            text-align: center;
+        }
+    }
+}

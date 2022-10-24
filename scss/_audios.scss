@@ -1,0 +1,41 @@
+.audios_cuadrados {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "imagen texto"
+    "ejemplo ejemplo"
+    ;
+    background-color: #30745b;
+    border-radius: 50px;
+
+    .audios_cuadrados_imagen {
+        grid-area: imagen;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .audios_cuadrados_texto {
+        color: white;
+        grid-area: texto;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .audios_cuadrados_ejemplo {
+        grid-area: ejemplo;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+
+        .audios_cuadrados_ejemplo_escuchar {
+            width: 90%;
+            margin: 10px;
+        }
+    }
+}

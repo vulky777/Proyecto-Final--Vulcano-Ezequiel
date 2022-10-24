@@ -1,0 +1,373 @@
+@charset "UTF-8";
+.parallax {
+  background-image: url(/assets/image/adjudicadanueva.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 10%;
+}
+
+h4, strong {
+  margin: 20px 0 0 0;
+  padding: 0px;
+  font-weight: 600;
+  color: #016f52;
+}
+
+small {
+  color: #626262;
+}
+
+.audios_cuadrados {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "imagen texto" "ejemplo ejemplo";
+  background-color: #30745b;
+  border-radius: 50px;
+}
+.audios_cuadrados .audios_cuadrados_imagen {
+  grid-area: imagen;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.audios_cuadrados .audios_cuadrados_texto {
+  color: white;
+  grid-area: texto;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-weight: bold;
+}
+.audios_cuadrados .audios_cuadrados_ejemplo {
+  grid-area: ejemplo;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.audios_cuadrados .audios_cuadrados_ejemplo .audios_cuadrados_ejemplo_escuchar {
+  width: 90%;
+  margin: 10px;
+}
+
+.parallax_contacto {
+  background-image: url(/assets/image/sueños\ cumplidos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin-left: 15px;
+  padding: 8%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+}
+body nav {
+  height: auto;
+}
+body header {
+  width: auto;
+  height: auto;
+  background-image: url("../assets/image/campus.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+body main {
+  height: auto;
+}
+body main h2 {
+  color: rgba(30, 70, 53, 0.7529411765);
+}
+body footer {
+  height: 5vh;
+  margin-top: 1rem;
+}
+body footer .centrado {
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  .margen_izquierda,
+.margen_derecha {
+    padding: 0px;
+  }
+  .audios_cuadrados {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "texto" "ejemplo";
+    background-color: #30745b;
+    border-radius: 50px;
+    margin-top: 30px;
+  }
+  .audios_cuadrados_texto {
+    font-size: 100%;
+  }
+  .audios {
+    margin-bottom: 30px !important;
+  }
+  .audios_cuadrados_imagen_logo {
+    display: none;
+  }
+  .audios_cuadrados_ejemplo {
+    margin-bottom: 20px;
+  }
+  .parallax_contacto {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin-left: 15px;
+    padding: 8%;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 576px) {
+  .margen_izquierda,
+.margen_derecha {
+    padding: 0px;
+  }
+  .parallax_contacto {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 15px;
+    padding: 8%;
+  }
+  .audios_cuadrados {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "texto" "ejemplo";
+    background-color: #30745b;
+    border-radius: 50px;
+    margin-top: 30px;
+  }
+  .audios_cuadrados_texto {
+    font-size: 1.2rem;
+  }
+  .audios {
+    margin: 24px 0px !important;
+  }
+  .audios_cuadrados_imagen_logo {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .margen_izquierda,
+.margen_derecha {
+    padding: 0px;
+  }
+  .parallax_contacto {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 15px;
+    padding: 8%;
+  }
+  .audios_cuadrados_texto {
+    font-size: 1.2em;
+  }
+  .audios_cuadrados {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "imagen texto" "ejemplo ejemplo";
+    background-color: #30745b;
+    border-radius: 50px;
+  }
+  .audios_cuadrados_imagen_logo {
+    display: block;
+  }
+  .audios {
+    margin: 24px 0px !important;
+  }
+}
+@media (min-width: 992px) {
+  .margen_izquierda {
+    padding-left: 10%;
+  }
+  .margen_derecha {
+    padding-right: 10%;
+  }
+  .parallax_contacto {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 15px;
+    padding: 8%;
+  }
+  .flex {
+    display: flex;
+    justify-content: end;
+  }
+  .audios_cuadrados {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 45% 45%;
+    grid-template-areas: "imagen texto" "ejemplo ejemplo";
+    background-color: #30745b;
+    border-radius: 50px;
+  }
+  .audios_cuadrados_texto {
+    font-size: 0.85rem;
+  }
+  .audios_cuadrados_imagen_logo {
+    height: 85px;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  .audios {
+    margin: 24px 0px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .margen_izquierda {
+    padding-left: 10%;
+  }
+  .margen_derecha {
+    padding-right: 10%;
+  }
+  .parallax_contacto {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 15px;
+    padding: 8%;
+  }
+  .flex {
+    display: flex;
+    justify-content: end;
+  }
+  .audios_cuadrados_texto {
+    font-size: 1rem;
+  }
+  .audios_cuadrados_imagen_logo {
+    height: 100px;
+  }
+  .audios {
+    margin-top: 30px !important;
+  }
+  .audios_cuadrados_ejemplo {
+    margin-top: 20px;
+  }
+  header {
+    width: auto;
+    height: 15vh;
+    background-image: url("../assets/image/campus.png");
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1400px) {
+  .margen_izquierda {
+    padding-left: 10%;
+  }
+  .margen_derecha {
+    padding-right: 10%;
+  }
+  .parallax_contacto {
+    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-left: 15px;
+    padding: 8%;
+  }
+  .audios {
+    margin: 25px !important;
+  }
+  .audios_cuadrados_texto {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  .audios_cuadrados_imagen_logo {
+    height: 100%;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  header {
+    width: auto;
+    height: 15vh;
+    background-image: url("../assets/image/campus.png");
+    background-repeat: no-repeat;
+  }
+}
+.parallax_quienes_somos {
+  background-image: url(/assets/image/logoautocredito.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 8%;
+}
+
+.casa_central {
+  width: 100%;
+}
+
+.fondo_verde {
+  background-color: rgba(1, 111, 82, 0.768627451);
+}
+.fondo_verde .margen_izquierda {
+  padding-left: 10%;
+}
+.fondo_verde .margen_izquierda .texto_titulo {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.fondo_verde .margen_derecha {
+  padding-right: 10%;
+}
+.fondo_verde .margen_derecha .texto_gris {
+  color: #626262;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2.5s;
+}
+
+.animate__animated.animate__zoomInRight {
+  --animate-duration: 2s;
+}/*# sourceMappingURL=style.css.map */

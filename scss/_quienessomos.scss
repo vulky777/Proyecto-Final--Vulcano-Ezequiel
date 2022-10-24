@@ -1,0 +1,38 @@
+
+
+.parallax_quienes_somos {
+    background-image: url(/assets/image/logoautocredito.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 8%;
+}
+
+.casa_central {
+    width: 100%;
+}
+
+.fondo_verde {
+    background-color: #016f52c4;
+
+    .margen_izquierda { 
+        padding-left: 10%;
+
+        .texto_titulo {
+            font-size: 1.75rem;
+            font-weight: 500;
+        }
+    }
+  
+    .margen_derecha {
+        padding-right: 10%;
+
+        .texto_gris {
+            color: #626262;
+            font-size: 1em;
+            font-weight: 400;
+        }
+    }
+}
