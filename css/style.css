@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .parallax {
-  background-image: url(/assets/image/adjudicadanueva.jpg);
+  background-image: url(../assets/image/adjudicadanueva.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ small {
 }
 
 .parallax_contacto {
-  background-image: url(/assets/image/sueños\ cumplidos.jpg);
+  background-image: url(../assets/image/sueños\ cumplidos.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,7 +136,7 @@ body footer .centrado {
     margin-bottom: 20px;
   }
   .parallax_contacto {
-    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-image: url(../assets/image/sueños\ cumplidos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +152,7 @@ body footer .centrado {
     padding: 0px;
   }
   .parallax_contacto {
-    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-image: url(../assets/image/sueños\ cumplidos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +187,7 @@ body footer .centrado {
     padding: 0px;
   }
   .parallax_contacto {
-    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-image: url(../assets/image/sueños\ cumplidos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +223,7 @@ body footer .centrado {
     padding-right: 10%;
   }
   .parallax_contacto {
-    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-image: url(../assets/image/sueños\ cumplidos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,7 +265,7 @@ body footer .centrado {
     padding-right: 10%;
   }
   .parallax_contacto {
-    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-image: url(../assets/image/sueños\ cumplidos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -304,7 +304,7 @@ body footer .centrado {
     padding-right: 10%;
   }
   .parallax_contacto {
-    background-image: url(/assets/image/sueños\ cumplidos.jpg);
+    background-image: url(../assets/image/sueños\ cumplidos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
